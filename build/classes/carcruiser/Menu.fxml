@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="152.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carcruiser.MenuController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/BackgroundMenu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="302.0" fitWidth="510.0" layoutX="43.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Judul.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playbutton" fitHeight="85.0" fitWidth="149.0" layoutX="223.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/PlayButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitbutton" fitHeight="79.0" fitWidth="149.0" layoutX="224.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/ExitButton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
